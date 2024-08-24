@@ -1,0 +1,133 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: rgba(0, 0, 255,0.3);
+    height: 100vh;
+}
+.form-elements
+{
+    background-color: rgba(128, 128, 128,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 200px;
+    margin: auto;
+}
+.form-all
+{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+}
+
+.form-elements input 
+{
+    margin: 10px
+}
+.form-elements label
+{
+    margin-right: 120px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#confirmpwd 
+{
+    margin-right: 85px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#uname
+{
+    margin-right: 110px
+}
+#phno
+{
+    margin-right: 110px
+}
+#dob
+{
+    margin-right: 115px
+}
+#pwd
+{
+    margin-right: 96px;
+}
+
+.form-elements input::placeholder
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-elements input
+{
+    border: none;
+    padding: 5px;
+}
+
+#submit
+{
+    border: none;
+    background-color: rgba(0, 0, 0,1);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#email
+{
+    margin-right: 115px
+}
+
+.Error-Message
+{
+    font-size: 10px;
+    color: rgb(216, 3, 3);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.otp-submit
+{
+    margin: 5px;
+    display: flex;
+}
+.otp-all
+{
+    display: flex;
+    align-items: center;
+}
+#otp
+{
+    margin-right: 140px;
+}
+#otpInput
+{
+    width: 55px;
+    margin-right: 25px;
+}
+#otpbtn
+{
+    height: 27px;
+    width: 70px;
+    /* margin-right: 10px; */
+    font-size: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+#otpbtn:hover
+{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0,0.5);
+}

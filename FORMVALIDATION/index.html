@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="">
+        <div class="form-all">
+        <div class="form-elements"> 
+        <label for="username" id="uname">Enter Name</label>
+        <input type="text" placeholder="Enter name" name="username">
+        <small style="display: none;" id="usernameErr" class="Error-Message">Empty Input Field! Enter username</small>
+        <label for="phno" id="phno">Enter Ph No:</label>
+        <input type="text" placeholder="Enter ph no:" name="phno">
+        <small style="display: none;" id="phnoErr" class="Error-Message">Empty Input Field! Enter phno!</small>
+        <small style="display: none;" id="phnoErr2" class="Error-Message">
+            Incorrect! Enter 10 digit Mobile Number only
+        </small>
+        <label for="DOB" id="dob">Enter DOB:</label>
+        <input type="text" placeholder="Enter person DOB:" name="DOB">
+        <small style="display: none;" id="dobErr" class="Error-Message">Empty Input Field! Enter DOB!</small>
+        <label for="email" id="email">Enter Mail</label>
+        <input type="email" placeholder="Enter mail ID" name="email">
+        <small style="display: none;" id="mailErr" class="Error-Message">Empty Input Field! Enter E-mail!</small>
+        <label for="pwd" id="pwd">Enter Password</label>
+        <input type="password" placeholder="Enter password" name="password">
+        <small style="display: none;" id="pwdErr" class="Error-Message">Empty Input Field! Enter password!</small>
+        <label for="confirmpwd" id="confirmpwd">ConfirmPassword</label>
+        <input type="password" placeholder="Confirm password" name="confirmpassword">
+        <small style="display: none;" id="conpwdErr" class="Error-Message">Empty Input Field!</small>
+        <small style="display: none;" id="conpwdErr2" class="Error-Message">Passwords do not match!</small>
+        <label for="otppwd" id="otp">OTP</label>
+        <div class="otp-all">
+        <input type="text" placeholder="OTP" name="otppwd" id="otpInput">
+        <button id="otpbtn" onclick="otpgen()">GET OTP</button>
+        </div>
+        <small class="Error-Message" id="otpErr" style="display: none;">Incorrect OTP!</small>
+        <input type="submit" id="submit">
+        
+    </div>
+    </form>
+    <script src="./Form.js"></script>
+</body>
+</html>
